@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Mobile</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slider/slick.css">
+	<link rel="stylesheet" href="slider/slick-theme.css">
+	<link rel="stylesheet" href="button.css">
+	<link rel="stylesheet" href="font-awesome.css">
+	
+	
+	
+	
+		<script src="slider/slick.min.js"></script>
+		<script src="js/index.js"></script>
+	
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+
+	
+	
+	
+</head>
+
+<body>
+	<div class="container">
+	<div class="header">
+		<div class="menu">
+			<div class="logo">
+				<a href="#"><p>Prechu</p></a>
+			</div>
+			<div class="navmenu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				</div>
+				<div class="buttonmenu">
+					<div class="overlay">
+						<nav class="overlayMenu">
+							<ul role="menu">
+								<li><a href="#" role="menuitem">Home</a></li>
+								<li><a href="#" role="menuitem">Products</a></li>
+								<li><a href="#" role="menuitem">Services</a></li>
+								<li><a href="#" role="menuitem">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="navBurger" role="navigation" id="navToggle"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container_2">
+<div class="slider">
+	<div class="slide">
+		<img src="img/sl1.jpg" alt="">
+		<div class="sltxt">
+		<button id="btn_register">
+			<a href="#">Sign up now</a>
+		</button>
+		<div class="regist" id="regist_1">
+	<img src="img/men.png">
+	<form>
+		<div class="dws-input">
+			<input type="text" name="username" placeholder="Введите логин">
+		</div>
+		<div class="dws-input">
+			<input type="password" name="password" placeholder="Введите пароль">
+		</div>
+		<input class="dws-submit" type="submit" name="submit" value="ВОЙТИ"><br />
+		<a href="#">Восстановить пароль</a>
+	</form>
+	<div class="dws-social">
+		<i class="fa fa-vk" aria-hidden="true"></i>
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+		<i class="fa fa-facebook" aria-hidden="true"></i>
+		<i class="fa fa-google-plus-official" aria-hidden="true"></i>
+		<i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+	</div>
+	<i class="close" id="cclose">X</i>
+</div>
+			<h3 class="sl_h">Lorem Ipsum is simply</h3>
+			<p class="sl_p">
+				dummy text of the <br>
+				printing & typesetting 
+			</p>
+			
+		</div>
+	</div>
+	<div class="slide">
+		<img src="img/sl2.jpg" alt="">
+		<div class="sltxt">
+			<h3 class="sl_h">Lorem Ipsum is simply</h3>
+			<p class="sl_p">
+				dummy text of the <br>
+				printing & typesetting 
+			</p>
+		</div>
+	</div>
+	<div class="slide">
+		<img src="img/sl3.jpg" alt="">
+		<div class="sltxt">
+			<h3 class="sl_h">Lorem Ipsum is simply</h3>
+			<p class="sl_p">
+				dummy text of the <br>
+				printing & typesetting 
+			</p>
+		</div>
+	</div>
+</div>
+
+	</div>
+
+	<div class="shop">
+		<div class="shop_items">
+			<img src="img/im1.png" alt="">
+			<div class="shoptxt">
+			<a href="#">Contrary to popular</a>
+				<p>Lorem Ipsum is not simply random text. <br>It has roots in a piece </p>
+				</div>
+		</div>
+		<div class="shop_items">
+			<img src="img/im2.png" alt="">
+			<div class="shoptxt">
+			<a href="#">Contrary to popular</a>
+				<p>Lorem Ipsum is not simply random text. <br>It has roots in a piece </p>
+				</div>
+		</div>
+		<div class="shop_items">
+			<img src="img/im3.png" alt="">
+			<div class="shoptxt">
+			<a href="#">Contrary to popular</a>
+				<p>Lorem Ipsum is not simply random text. <br>It has roots in a piece </p>
+				</div>
+		</div>
+	</div>
+
+	<div class="sale">
+		<div class="saletxt">
+			<h3>The Shopping cart</h3>
+		</div>
+		<div class="salemenu">
+		<div class="imgsale">
+			<img src="IMG/sale.png" alt="">
+			</div>
+			<div class="imgtxt">
+				<h4>Some Bullet text here</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+Lorem Ipsum has been the industry's standard dummy text ever<br>
+When an unknown printer took a galley of type and scrambled <br>
+It to make a type specimen book. It has survived not only five centuries <br>
+But also the leap into electronic typesetting,<br>
+Remaining essentially unchanged. It was popularised <br>
+The release of Letraset sheets containing Lorem Ipsum passages</p>
+			</div>
+		</div>
+	</div>
+		<footer>
+			<p>Copyright © 2012-2013 cssauthor.com</p>
+		</footer>
+
+		<script src="slider/slick.min.js"></script>
+		<script src="js/index.js"></script>
+		
+	</div>
+
+	
+	<script>
+		$(function(){
+			$('#btn_register').click(function(){
+				$('#regist_1').css('display','block');
+			});
+			$('#cclose').click(function(){
+				$('#regist_1').css('display','none');
+			})
+		})
+	</script>
+	
+</body>
+
+</html>
