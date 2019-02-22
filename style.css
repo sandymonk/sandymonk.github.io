@@ -53,7 +53,7 @@ body {
 }
 
 .logo p:before {
-	content: url(IMG/LOGO.png);
+	content: url(Img/LOGO.png);
 	margin-right: 17px;
 	position: relative;
 	left: 2px;
