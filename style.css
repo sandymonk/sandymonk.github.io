@@ -348,7 +348,7 @@ a:focus:after {
 	text-align: left;
 }
 .slider::after{
-	content: url(IMG/layer1.png);
+	content: url(Img/layer1.png);
 	width: 100%;
 	position: relative;
 	bottom: 10px;	
